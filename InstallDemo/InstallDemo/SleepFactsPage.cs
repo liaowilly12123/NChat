@@ -73,6 +73,31 @@ namespace InstallDemo
         }
     }
 
+    public class FactPage3: ContentPage
+    {
+        public FactPage3()
+        {
+            BoxView image = new BoxView
+            {
+                Color = Color.Black,
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.CenterAndExpand,
+            };
+            Label Fact_info = new Label
+            {
+                Text = "This displays the fact \n" + "and the appropriate citation",
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.Center
+            };
+            StackLayout FactLayout = new StackLayout
+            {
+                Children = { image, Fact_info }
+            };
+            BackgroundColor = Color.FromHex("dab3ff");
+            Content = FactLayout;
+        }
+    }
+
 
 }
 
