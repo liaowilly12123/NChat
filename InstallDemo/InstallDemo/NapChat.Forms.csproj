@@ -36,6 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="BindableBase.cs" />
     <Compile Include="ContactList.cs" />
     <Compile Include="GroupData.cs" />
     <Compile Include="GroupsDataAccess.cs" />
